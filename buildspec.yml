@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Build started on `date`"
+      - echo "Preparing files for deployment..."
+artifacts:
+  files:
+    - index.html
